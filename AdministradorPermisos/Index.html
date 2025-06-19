@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Administrador de Permisos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Administrador de Permisos de Usuario</h1>
+
+        <div class="menu-table-row">
+            <div class="menu-tabs">
+                <span class="tab active" data-tab="existencias">Existencias</span>
+                <span class="tab" data-tab="orden">Orden Traslado</span>
+                <span class="tab" data-tab="recibos">Recibos</span>
+                <span class="tab" data-tab="cataciones">Cataciones</span>
+                <span class="tab" data-tab="produccion">Producción</span>
+                <span class="tab" data-tab="cascara">Cáscara</span>
+            </div>
+
+            <div class="table-container">
+                <table id="permisos">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Usuario</th>
+                            <th>Ver</th>
+                            <th>Editar</th>
+                            <th>Ver</th>
+                            <th>Confirmar</th>
+                            <th>Crear</th>
+                            <th>Ver Historial</th>
+                            <th>Ver Historial Trilla</th>
+                            <th>Descargar datos Trilla</th>
+                            <th>Imprimir Trilla</th>
+                            <th>Ver historial Recibos</th>
+                            <th>Reimprimir Recibos</th>
+                            <th>Descargar datos Recibos</th>
+                            <th>Crear Recibo Bella Vista</th>
+                            <th>Crear Recibo Especial</th>
+                            <th>Crear Recibo de otra finca</th>
+                            <th>Ingresar</th>
+                            <th>Editar</th>
+                            <th>Ver</th>
+                            <th>Carga Masiva</th>
+                            <th>Ver Rendimientos</th>
+                            <th>Descargar Rendimientos</th>
+                            <th>Ver Tarjetas no Ingresadas</th>
+                            <th>Exportar Tarjetas no Ingresadas</th>
+                            <th>Ver rendimientos por Origen</th>
+                            <th>Exportar rendimientos por Origen</th>
+                            <th>Ver Ingresos por Razón Social</th>
+                            <th>Exportar Excel Ingresos por Razón Social</th>
+                            <th>Exportar PDF Ingresos por Razón Social</th>
+                            <th>Ver Existencias</th>
+                            <th>Editar Existencias</th>
+                            <th>Crear Recibo</th>
+                            <th>ver historial</th>
+                            <th>Reimprimir Recibo</th>
+                            <th>Descargar datos Recibos</th>
+                            <th>Crear Orden Traslado</th>
+                            <th>Ver Historial Orden Traslado</th>
+                            <th>Ver Orden Traslado</th>
+                            <th>Confirmar Orden Traslado</th>
+                            <th>Todos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Admin</strong></td>
+                            <td>Admin1</td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch"checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="row-switch" checked><span class="slider"></span></label></td>
+                            <td><label class="switch"><input type="checkbox" class="master-switch" id="masterSwitch" checked><span class="slider"></span></label></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button class="icon-button btn-cancel rounded-pill" id="btnDescartar" title="Descartar Cambios" type="button">
+                <i class="bi bi-x-lg"></i>  
+                Descartar Cambios
+              </button>
+              <button class="icon-button btn-save rounded-pill" id="btnGuardar" title="Guardar" type="button">
+                <i class="bi bi-floppy"></i>
+                Guardar Cambios
+              </button>
+        </div>
+    </div>  
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
